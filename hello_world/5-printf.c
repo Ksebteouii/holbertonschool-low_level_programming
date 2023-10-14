@@ -4,15 +4,7 @@
 * Return: 0
  */
 int main(void) {
-printf("Art,");
-printf("but");
-printf("it");
-printf("is");
-printf("a");
-printf("piece");
-printf("of");
-printf("art,");
-printf("\n");
+printf("with proper grammar, but the outcome is a piece of art,")
 
 return (0); 
 }

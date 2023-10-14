@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
+ * main - Entry point 
  * Description: This program prints a message about programming.
  * Return: 0
  */

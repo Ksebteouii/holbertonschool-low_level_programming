@@ -17,9 +17,11 @@ int main(void)
 	}
 
         else if (n<0)
-        else
-	{
-                        printef ("le nombre egale 0)
+		printf ("le nombre est negative")
+	}
+else
+{
+       printef ("le nombre egale 0")	
 	}
         return (0);
 }

@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdlib.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - prints the last digit number
+* and whether it is greater than 5, less than 6, or 0.
+* Return: Always 0.
 int main(void)
 {
 	int n;

@@ -1,18 +1,25 @@
 #include <stdlib.h>
 #include <time.h>
-/* make a comparission  */
+/* more headres go thers  */
 
-/* betty style doc for function main goes there */
+/* inigalite or egalite  */
 int main(void)
 {
         int n;
 
         srand(time(0));
         n = rand() - RAND_MAX / 2;
+	{
         if (n>0)
+	}
+	{
                 printef ("le nombre est positive")
+	}
+
         else if (n<0)
         else
+	{
                         printef ("le nombre egale 0)
+	}
         return (0);
 }

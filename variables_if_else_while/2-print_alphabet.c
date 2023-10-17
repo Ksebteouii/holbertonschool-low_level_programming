@@ -1,32 +1,18 @@
 #include <stdio.h>
 /**
- * main -  Declare a variable and initialize it with the first member of
-	   the range [a - z]
+ * main - Prints the alphabet in lowercase
  *
  * Return: Always (Success)
  */
 int main(void)
 {
-	/* Declare a variable and initialize it with the first member of
-	  the range [a - z]
-   */
+	char ch;
 
-	char alphabet = 'a';
+	for (ch = 'a'; ch <= 'z' ; ch++)
+	{
+	putchar(ch);
+	}
 
-	/* check to see if the current value of your variable is less than
-		or the same as the last member (z) of the given range. While
-		the value is less, go ahead and print the value
-	 */
-
-	   while (alphabet <= 'z')
-    {
-        // print the value of the variable 
-        putchar(alphabet);
-
-        // increment the variable (ie: a becomes b)
-        alphabet++;
-    }
-
-    putchar('\n');
-    return (0);
+	putchar('\n');
+	return (0);
 }

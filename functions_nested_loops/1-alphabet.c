@@ -1,5 +1,5 @@
 #include "main.h"
-void print_alphabet(void);
+
 /**
  * print_alphabet -  prints _putchar, followed by a new line
  * Return: Always  (Success)

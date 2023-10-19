@@ -1,9 +1,13 @@
-#include "main.h"
+#include <math.h>
+
 int main (int argc, char *argv[]) {
-    int u;
+    int n;
 
-    scanf("%d", &u);
-    printf("absValue = %u\n", u);
-
+    scanf("%d", &n);
+    if(n < 0) {
+        printf("absValue = -%d\n", n);
+    } else {
+        printf("absValue = %d\n", n);
+    }
 return 0;
 }

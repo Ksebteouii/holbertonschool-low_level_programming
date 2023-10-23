@@ -1,6 +1,6 @@
 #include <main.h>
 #include "holberton.h"
-
+#include <stdio.h>
 /**
  * rev_string - Reverses a string
  * @s: The string to be modified

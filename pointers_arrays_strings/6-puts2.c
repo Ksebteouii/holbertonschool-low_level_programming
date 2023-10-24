@@ -1,21 +1,20 @@
-#include <stdio.h>
 #include "main.h"
-#include "string.h"
+#include <stdio.h>
+#include <string.h>
 
 /**
- * rev_string - Reverses a string
- * description :
- * @s: The string to be modified
+ * puts2 - Prints every other character of a string
+ * @str: The string to be treated
+ *description:
  * Return: void
  */
-int main(void) int i;
-char word;
-char input;
 
-for (i = 0; i < strlen(input); i += 2)
+void puts2(char *str)
 {
+	int i;
+	for (i = 0; str[i] != '\0'; i += 2)
 	{
-		word[i] += input[i];
+		putchar(str[i]);
 	}
-	printf("\n\n2nd option\n%s", s);
+	putchar('\n');
 }

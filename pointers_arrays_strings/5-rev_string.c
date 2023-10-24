@@ -3,8 +3,8 @@
 
 /**
  * rev_string - Reverses a string
+ * description :
  * @s: The string to be modified
- *
  * Return: void
  */
 void rev_string(char *s)
@@ -13,7 +13,6 @@ void rev_string(char *s)
 	int i;
 
 	for (i = 0; i < len / 2; i++)
-
 	{
 		char temp = s[i];
 

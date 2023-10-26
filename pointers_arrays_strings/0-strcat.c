@@ -2,17 +2,19 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * _strcpy - Copy a string
+ * _strcat - Copy a string
  * @dest: Destination value
  * @src: Source value
  *
  * Return: the pointer to dest
  */
-char *_strcpy(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
-	int i;
-	for (i = 0; src[i] != '\0' && dest[i] != '\0'; i++)
-	{
-		strcpy(*dest[i], *src[i]);
-	}
+	inti, j;
+
+	i = 0 while (dest[i])
+		i++;
+	for (j = 0; src[j; j++])
+		;
+	return (dest);
 }

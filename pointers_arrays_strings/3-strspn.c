@@ -1,13 +1,13 @@
-include "main.h"
+#include "main.h"
 #include <stdio.h>
-	/**
-	 * _strspn - function that copies memory area
-	 * @accept : pointeur
-	 * @s : pointeur
-	 * Return: to i
-	 */
-	unsigned int
-	_strspn(char *s, char *accept)
+/**
+ * _strspn - function that copies memory area
+ * @accept : pointeur
+ * @s : pointeur
+ * Return: to i
+ */
+unsigned int
+_strspn(char *s, char *accept)
 {
 	unsigned int i, j;
 

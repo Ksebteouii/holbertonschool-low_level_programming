@@ -2,7 +2,7 @@
 /**
  * Factorial-function that returns the factorial of a given number
  * @n:nbr
- * return: 1,-1,f
+ * return: 1.
  */
 
 int factorial(int n)

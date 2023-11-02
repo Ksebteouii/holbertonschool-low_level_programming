@@ -4,6 +4,7 @@
  * @n:nbr
  * return: 1,-1,f
  */
+
 int factorial(int n)
 {
 	int f;

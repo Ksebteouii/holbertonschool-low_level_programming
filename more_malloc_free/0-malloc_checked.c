@@ -2,13 +2,13 @@
 #include "main.h"
 /**
  malloc_checked-function that allocates memory using malloc
- * @b:integer
- * Return: size allocated memorry
+ * @b:size allocated memorry
+ * Return: p
  */
-void *malloc_checked(unsigned int b);
+void *malloc_checked(unsigned int b)
 {
-	void *b = malloc(b);
+	void *p = malloc(b);
 	if (n == NULL)
 		exist(98);
-	return (0);
+	return (p);
 }

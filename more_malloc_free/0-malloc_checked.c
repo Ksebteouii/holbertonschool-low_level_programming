@@ -8,7 +8,7 @@
 void *malloc_checked(unsigned int b)
 {
 	void *p = malloc(b);
-	if (n == NULL)
+	if (p == NULL)
 		exist(98);
 	return (p);
 }

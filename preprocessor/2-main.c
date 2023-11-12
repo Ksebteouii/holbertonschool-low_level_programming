@@ -5,6 +5,6 @@
  */
 int_main(void)
 {
-	printf("%s\n", _FILE_);
+	printf("%s\n", _file_);
 	return (0);
 }

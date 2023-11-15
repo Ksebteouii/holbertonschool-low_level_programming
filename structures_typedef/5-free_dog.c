@@ -2,9 +2,9 @@
 #include <string.h>
 /**
  * free_dog -  function that frees dogs
- * @d : pointeur
+ * @d : pointer
  */
-void free_dog(dog_t *d);
+void free_dog(dog_t *d)
 {
 	if (d == NULL)
 		return d;

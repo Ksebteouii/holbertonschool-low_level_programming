@@ -62,12 +62,12 @@ void print_all(const char *const format, ...)
 	va_list argm;
 
 	types_t types[] = {
-		{'c', convert_char},
-		{'i', convert_int},
-		{'f', convert_float},
-		{'s', convert_string},
-		{'\0', NULL},
-	};
+		{'c', convert_char};
+		{'i', convert_int};
+		{'f', convert_float};
+		{'s', convert_string};
+		{'\0', NULL};
+	}
 	va_start(argm, format);
 	while (format && format[i])
 	{

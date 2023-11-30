@@ -1,8 +1,7 @@
-#include <lists.h>
+#include "lists.h"
 /**
 size_t print_list-function that prints all the elements of a list_t list
-@str:
-@k: pointeur
+@h::
 Return: nombre des element
 */
 size_t print_list(const list_t *h);
